@@ -1,6 +1,14 @@
-# Tiny git tutorial
+## Tiny Git Tutorial
 
-## Initialize a local git repository
+### Download git
+
+| Operating System | Link |
+|---	|---	|
+| Windows | [Download](http://git-scm.com/download/win) |
+| Linux	| [`apt-get install git`](http://git-scm.com/download/linux) |
+| OSX	| [Download](http://git-scm.com/download/mac)	|
+
+### Initialize a local git repository
 Execute once
 ```bash
 git init
@@ -12,7 +20,7 @@ git remote add origin https://github.com/mamrehn/machine-learning-tutorials.git
 git fetch origin
 ```
 
-## Add changes in the filesystem to github
+### Add changes in the filesystem to github
 Call when updating
 ```bash
 git add -A                  # stages All
@@ -25,7 +33,7 @@ git push origin master      # upload to github repostitory
 git log                     # check current version history
 ```
 
-## Undo actions
+### Undo actions
 Use to unstage or edit commits
 ```bash
 git reset HEAD              # unstage all files in the index (after git add <...>)
@@ -40,7 +48,7 @@ git commit --amend          # add forgotten_file to the previous commit
 git checkout -- myFile.txt  # unmodify myFile.txt by replacing it from HEAD
 ```
 
-## Branches
+### Branches
 Use branches for bigger projects and more elegant history.
 ```bash
 git checkout -b myFeature   # create new current branch named myFeature

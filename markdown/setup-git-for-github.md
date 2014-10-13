@@ -62,3 +62,24 @@ If merging yields some error messages, try to solve them manually
 ```bash
 git diff <source_branch> <target_branch>
 ```
+
+### Compress history (optional)
+To only submit a subset of commits performed locally during one day of frequently committed small pieces of work, squash commits together into a bigger one before pushing them to the remote repository.
+```bash
+git rebase -i HEAD~3
+
+[EDITOR]
+pick 1fc6c95 My last commit message.
+pick 6b2481b A patch.
+pick dd1475d The oldest of the three commits.
+```
+Interactively edits the last three commits. 
+In response, the text editor appears.
+Change all but the newest `pick` to `squash` to meld one commit into the previous.
+
+**Note**: Don't prune a good version history! Use this for a series of very small changes only - like typo correction.
+
+### Additional sources to learn git(hub)
+
+* [Github::Resources](https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github/)
+* Commit message guidelines from [openstack.org](https://wiki.openstack.org/wiki/GitCommitMessages) and [stackoverflow.com](http://stackoverflow.com/questions/43598/suggestions-for-a-good-commit-message-format-guideline)

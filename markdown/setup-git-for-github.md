@@ -69,13 +69,13 @@ To only submit a subset of commits performed locally during one day of frequentl
 git rebase -i HEAD~3
 
 [EDITOR]
-pick 1fc6c95 My last commit message.
+pick 1fc6c95 The oldest of the three commits.
 pick 6b2481b A patch.
-pick dd1475d The oldest of the three commits.
+pick dd1475d My last commit message.
 ```
-Interactively edits the last three commits. 
+Interactively edits the last three commits.
 In response, the text editor appears.
-Change all but the newest `pick` to `squash` to meld one commit into the previous.
+Change all but the oldest commits' `pick` to `squash` to meld one commit into the previous.
 
 **Note**: Don't prune a good version history! Use this for a series of very small changes only - like typo correction.
 

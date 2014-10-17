@@ -8,6 +8,8 @@
 | Linux	| [`apt-get install git`](http://git-scm.com/download/linux) |
 | OSX	| [Download](http://git-scm.com/download/mac)	|
 
+This is a small collection of commands used in git. For an example workflow using git take a look at this [log file](https://gist.github.com/mamrehn/dbdbfcedbdae3c0fc98b).
+
 ### Initialize a local git repository
 Execute once
 ```bash
@@ -29,14 +31,16 @@ git add -A                  # stages All
 git pull                    # equals: git fetch; git merge FETCH_HEAD
 git status                  # check if merge was successful
 git commit -m "my commit message"
-git push origin master      # upload to github repostitory
-git log                     # check current version history
+git push origin master      # upload to github repostitory, branch name 'master'
+git log                     # check current version history via commit messages
+git log --oneline myfile    # show version history of file 'myfile'
 ```
 
 ### Undo actions
 Use to unstage or edit commits
 ```bash
-git reset HEAD              # unstage all files in the index (after git add <...>)
+git reset HEAD               # undo adding all files in the index (after git add <...>)
+git rm --cached              # delete file fom the repo, leaving only a local copy
 
 git config --global alias.unstage 'reset --'
 git unstage my/file.txt     # after this config adjustment, unstaging per path is possible
@@ -53,7 +57,7 @@ Use branches for bigger projects and more elegant history.
 ```bash
 git checkout -b myFeature   # create new current branch named myFeature
 # git branch -d myFeature   # delete branch myFeature
-# git checkout master       # go back to the master
+# git checkout someBranch   # go back to an existing branch like 'master'
 git push origin myFeature   # convert private branch to public repository
 git pull                    # first get the newest rep. version...
 git merge myFeature         # ...then merge with your branch
@@ -61,6 +65,7 @@ git merge myFeature         # ...then merge with your branch
 If merging yields some error messages, try to solve them manually
 ```bash
 git diff <source_branch> <target_branch>
+git diff HEAD^ myfile      # difference of current 'myFile' and the one from last commit (HEAD~1)
 ```
 
 ### Compress history (optional)
@@ -77,7 +82,7 @@ Interactively edits the last three commits.
 In response, the text editor appears.
 Change all but the oldest commits' `pick` to `squash` to meld one commit into the previous.
 
-**Note**: Don't prune a good version history! Use this for a series of very small changes only - like typo correction.
+**Note**: Don't prune a good version history! Use this for a series of very small changes only - like typo correction, or subsequent small changes necessary for this version to finally compile/run which you did not intend to create at all.
 
 ### Additional sources to learn git(hub)
 

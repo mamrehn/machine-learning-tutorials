@@ -17,4 +17,6 @@ Scikit-learn python examples
 Other tutorials
 ---------
 - [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Git](https://github.com/mamrehn/machine-learning-tutorials/blob/master/markdown/setup-git-for-github.md)
+- Git
+  - [Setup](blob/master/markdown/git/setup-for-github.md)
+  - [Example workflow](blob/master/markdown/git/example-local-repository-basics.md)

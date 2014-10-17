@@ -8,7 +8,7 @@
 | Linux	| [`apt-get install git`](http://git-scm.com/download/linux) |
 | OSX	| [Download](http://git-scm.com/download/mac)	|
 
-This is a small collection of commands used in git. For an example workflow using git take a look at this [log file](https://gist.github.com/mamrehn/dbdbfcedbdae3c0fc98b).
+This is a small collection of commands used in git. For an example workflow using git take a look at this [log file](example-local-repository-basics.md).
 
 ### Initialize a local git repository
 Execute once
@@ -25,9 +25,9 @@ git fetch origin
 ### Add changes in the filesystem to github
 Call when updating
 ```bash
-git add -A                  # stages All
-# git add .                 # stages new and modified, without deleted
-# git add -u                # stages modified and deleted, without new
+git add -A :/               # stages All files in the repository
+# git add .                 # stages new and modified in directory, without deleted
+# git add -u :/             # stages modified and deleted, without new
 git pull                    # equals: git fetch; git merge FETCH_HEAD
 git status                  # check if merge was successful
 git commit -m "my commit message"

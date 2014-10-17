@@ -18,5 +18,5 @@ Other tutorials
 ---------
 - [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - Git
-  - [Setup](blob/master/markdown/git/setup-for-github.md)
-  - [Example workflow](blob/master/markdown/git/example-local-repository-basics.md)
+  - [Setup](markdown/git/setup-for-github.md)
+  - [Example workflow](markdown/git/example-local-repository-basics.md)

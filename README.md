@@ -26,3 +26,4 @@ Other tutorials
 - Using git
   - [Setup](markdown/git/setup-for-github.md)
   - [Example workflow](markdown/git/example-local-repository-basics.md)
+- [Python tutorial sources](markdown/python/[Python]%20library%20tutorials.md)

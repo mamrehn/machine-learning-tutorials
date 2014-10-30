@@ -1,25 +1,25 @@
 
 # Libraries
 
-Here is a short [overview](http://www.pyimagesearch.com/2014/01/12/my-top-9-favorite-python-libraries-for-building-image-search-engines/) of the libraries mentioned.
+A short [overview](http://www.pyimagesearch.com/2014/01/12/my-top-9-favorite-python-libraries-for-building-image-search-engines/) of the libraries mentioned.
 
 At [http://pythonvision.org](http://pythonvision.org/basic-tutorial) there are some basic python computer vision introductions on counting, segmentation, seed points and watershed. BEWARE that they are rather old and may not work with python 3.x.
 ## Numpy
-Numpy is the base of a lot of scientific libraries such as scipy, scikit-learn, scikit-image and openCV. 
+Numpy is the base of scientific libraries such as SciPy, scikit-learn, scikit-image and OpenCV. 
 
 - [Introduction into NumPy](http://www.python-course.eu/numpy.php)
 - [Array Indexing](http://docs.scipy.org/doc/numpy/reference/arrays.indexing.html)
 
 ## SciPy
-Library for scientific computing with python. The `ndimage` API for example can be found at [docs.scipy.org](http://docs.scipy.org/doc/scipy-0.14.0/reference/ndimage.html)
+Library for scientific computing with python. The `ndimage` API for example can be found at [docs.scipy.org](http://docs.scipy.org/doc/scipy-0.14.0/reference/ndimage.html).
 
 [Tutorials](http://scipy-lectures.github.io/advanced/index.html) from their website
 - [Image manipulation and processing](http://scipy-lectures.github.io/advanced/image_processing/)
 
 ## Matplotlib
-Matplotlib's API is similar to Matlab plotting
+Matplotlib's API is similar to Matlab plotting.
 
-- [How-To compilation](http://matplotlib.org/faq/howto_faq.html)
+- [How-Tos compilation](http://matplotlib.org/faq/howto_faq.html)
 
 ## Scikit-image
 Written in python and cython, focussed on image processing in general (denoising, segmentation, ...).
@@ -47,6 +47,7 @@ Segmentation
 
 - [Graph-cut (max-flow/min-cut)](http://pythonhosted.org/MedPy/graphcut.html)
 - Github [wiki](https://github.com/loli/medpy/wiki/Basic-image-manipulation)
+
 ## More
 - [tutorials](http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_imgproc/py_table_of_contents_imgproc/py_table_of_contents_imgproc.html) ([github](https://github.com/abidrahmank/OpenCV2-Python-Tutorials/tree/master/source/py_tutorials/py_imgproc))
 

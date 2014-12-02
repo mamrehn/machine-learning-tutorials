@@ -84,6 +84,20 @@ Change all but the oldest commits' `pick` to `squash` to meld one commit into th
 
 **Note**: Don't prune a good version history! Use this for a series of very small changes only - like typo correction, or subsequent small changes necessary for this version to finally compile/run which you did not intend to create at all.
 
+### Syncing a fork
+When cloning a repository you want to contribute to and do not have direct write access to it, the default workflow is to fork the project first, then create a pull request with your changes.
+
+During your work on the fork, the updates made to the original repository can be integrated into your fork.
+First tell git where the original repository can be found. Then update.
+```bash
+git remote add upstream https://github.com/octocat/Spoon-Knife.git # set original repository
+git fetch upstream # update
+git checkout master
+git merge upstream/master
+git rebase -i upstream/master
+```
+Use the -i parameter as a workaround for this [bug](https://groups.google.com/forum/#!topic/git-version-control/4jawv4UZ_0k) in git.
+
 ### Additional sources to learn git(hub)
 
 * [Github::Resources](https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github/)

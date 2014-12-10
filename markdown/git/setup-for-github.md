@@ -98,6 +98,17 @@ git rebase -i upstream/master
 ```
 Use the -i parameter as a workaround for this [bug](https://groups.google.com/forum/#!topic/git-version-control/4jawv4UZ_0k) in git.
 
+### Using a proxy server
+For git commands to succeed behind a (company's) proxy server, add these lines in your `.gitconfig` file.
+The config file can be found in your home or a root directory using a windows operating system.
+You may test the new proxy settings using the local proxy application [fiddler](http://www.telerik.com/fiddler).
+```bash
+[http]
+    proxy = http://localhost:8888
+[https]
+    proxy = https://localhost:8888
+```
+
 ### Additional sources to learn git(hub)
 
 * [Github::Resources](https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github/)

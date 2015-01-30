@@ -54,6 +54,13 @@ git checkout -- myFile.txt  # unmodify myFile.txt by replacing it from HEAD
 
 ### Branches
 Use branches for bigger projects and more elegant history.
+
+View current branches.
+```bash
+git branch                  # show current branches on your system
+git branch -r               # show available branches on remote location
+```
+Set up a new branch and switch to it.
 ```bash
 git checkout -b myFeature   # create new current branch named myFeature
 # git branch -d myFeature   # delete branch myFeature

@@ -19,8 +19,18 @@ git config --global user.name "my Name"
 git config --global user.email "me@website.com"
 git config --global credential.helper "cache --timeout=3600"
 git remote add origin https://github.com/mamrehn/machine-learning-tutorials.git
+```
+Finally, if the local repository is empty:
+```bash
 git fetch origin
 ```
+Otherwise, upload the current files to the remote repository
+```bash
+git add -A :/
+git commit -m "save changes for remote repository"
+git push -u origin master
+```
+The ```-u``` or ```--set-upstream``` parameter sets the upstream (tracking) reference to the current remote repository.
 
 ### Add changes in the filesystem to github
 Call when updating

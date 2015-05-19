@@ -4,15 +4,15 @@ A collection of information sources for further studies on pattern recognition, 
 
 ## Full Tutorials
 
- - [Pattern classification](https://github.com/rasbt/pattern_classification)
+ - [Pattern classification](https://github.com/rasbt/pattern_classification) by Sebastian Raschka. A very comprehensive guide to machine learning in [Python](https://github.com/rasbt/python_reference).
 
-## <img src="http://www.cs.waikato.ac.nz/ml/weka/mooc/common/coa_red.gif" alt="Weka MOOC" style="height:40px;"> Weka
+## <img src="http://www.cs.waikato.ac.nz/ml/weka/mooc/common/coa_red.gif" alt="Weka MOOC" style="height:20px;"> Weka
 
  1. Data Mining with Weka MOOC [[videos](http://www.cs.waikato.ac.nz/ml/weka/mooc/dataminingwithweka/)], [[transcript](http://www.cs.waikato.ac.nz/ml/weka/mooc/dataminingwithweka/transcripts/)]
  2. More Data Mining with Weka MOOC [[videos](http://www.cs.waikato.ac.nz/ml/weka/mooc/moredataminingwithweka/)], [[transcript](http://www.cs.waikato.ac.nz/ml/weka/mooc/moredataminingwithweka/transcripts/)]
  
 ## Lectures
-#### <img src="https://www.fau.de/wp-content/themes/fau/img/logo-fau.png" alt="Friedrich-Alexander-Universität Erlangen-Nürnberg" style="height:40px;"> Friedrich-Alexander-University Erlangen-Nuremberg
+#### <img src="https://www.fau.de/wp-content/themes/fau/img/logo-fau.png" alt="Friedrich-Alexander-UniversitÃ¤t Erlangen-NÃ¼rnberg" style="height:40px;"> Friedrich-Alexander-University Erlangen-Nuremberg
 
  1. Pattern Recognition [[videos](http://www.video.uni-erlangen.de/course/id/173.html)], [[slides](http://www5.cs.fau.de/lectures/ws-1415/pattern-recognition-pr/slides/)]
  2. Introduction to Pattern Recognition

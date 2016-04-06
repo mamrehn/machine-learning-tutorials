@@ -1,4 +1,4 @@
-machine-learning-tutorials
+machine learning tutorials
 ==========================
 
 A set of tutorials and IPython Notebook files to get started with machine learning / pattern recognition.
@@ -7,7 +7,7 @@ A set of tutorials and IPython Notebook files to get started with machine learni
 ### IPython Notebooks
 
 Either open the .ipyb links with your browser or download them to browse and run the commands with <br/>
-`ipython notebook --pylab inline`
+`jupyter notebook`
 
 ##### python
 - [[python] cheatsheet](http://nbviewer.ipython.org/github/mamrehn/machine-learning-tutorials/blob/master/ipynb/[python]%20cheatsheet.ipynb)
@@ -28,13 +28,14 @@ Either open the .ipyb links with your browser or download them to browse and run
 ##### machine learning in general
  - [Information sources](markdown/machine%20learning/[ML]%20information%20sources.md)
 
-##### Python
+##### python
 - [Official scikit-learn python examples](https://github.com/scikit-learn/scikit-learn/tree/master/examples)
 - [Python tutorial sources](markdown/python/[Python]%20library%20tutorials.md)
 
-##### Git
+##### git
  - [Git setup](markdown/git/setup-for-github.md)
  - [Example workflow](markdown/git/example-local-repository-basics.md)
+ - [Tutorial links](markdown/git/tutorial-links.md)
 
-##### Markdown
+##### markdown
 - [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
